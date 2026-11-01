@@ -1,0 +1,20 @@
+{
+  "@@locale": "ti",
+  "appTitle": "ETHIO SMART ENERGY",
+  "welcome": "ናብ ETHIO SMART ENERGY ብደሓን መጻእኩም",
+  "tagline": "ዘመናዊ ጸዓት። ዘመናዊ ክፍሊት። ዘመናዊ መጻኢ።",
+  "prepaidBalance": "ቅድሚ ሕጂ ዝተኸፍለ ቀሪ ሒሳብ",
+  "monthlyUsage": "ወርሓዊ ኣጠቓቕማ ጸዓት",
+  "estimatedBill": "ግምታዊ ክፍሊት",
+  "quickServices": "ቅልጡፍ ኣገልግሎታት",
+  "reportOutage": "ምቁራጽ ኤሌክትሪክ ሓብር",
+  "voltageProblem": "ጸገም ቮልቴጅ",
+  "payElectricity": "ክፍሊት ኤሌክትሪክ",
+  "aiAssistant": "AI ሓጋዚ",
+  "smartEnergyMonitoring": "ዘመናዊ ክትትል ጸዓት",
+  "demoDisclaimer": "ናይ ፈተነ ስሪት፤ ምስ EEU ገና ኣይተራኸበን።",
+  "home": "መበገሲ",
+  "bills": "ክፍሊታት",
+  "reports": "ሪፖርታት",
+  "profile": "መግለጺ ተጠቃሚ"
+}
