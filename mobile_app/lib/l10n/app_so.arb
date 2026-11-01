@@ -1,0 +1,20 @@
+{
+  "@@locale": "so",
+  "appTitle": "ETHIO SMART ENERGY",
+  "welcome": "Ku soo dhawoow ETHIO SMART ENERGY",
+  "tagline": "Koronto Casri ah. Lacag-bixin Casri ah. Mustaqbal Casri ah.",
+  "prepaidBalance": "Hadhaaga Lacagta Hore",
+  "monthlyUsage": "Isticmaalka Korontada Bishii",
+  "estimatedBill": "Biilka La Qiyaasay",
+  "quickServices": "Adeegyada Degdegga ah",
+  "reportOutage": "Soo sheeg Koronto Go'aysa",
+  "voltageProblem": "Dhibaatada Voltage-ka",
+  "payElectricity": "Bixi Biilka Korontada",
+  "aiAssistant": "Kaaliyaha AI",
+  "smartEnergyMonitoring": "La Socodka Tamarta Casriga ah",
+  "demoDisclaimer": "Nooca tijaabada ah - Weli kuma xirna EEU.",
+  "home": "Bogga Hore",
+  "bills": "Biilasha",
+  "reports": "Warbixinnada",
+  "profile": "Astaanta Isticmaalaha"
+}
