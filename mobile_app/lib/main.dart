@@ -149,8 +149,6 @@ bottomNavigationBar: BottomNavigationBar(
     ),
   ],
 ),
-  ],
-),
 );
 }
   Widget buildHome(AppLocalizations t) {
