@@ -1,0 +1,20 @@
+{
+  "@@locale": "en",
+  "appTitle": "ETHIO SMART ENERGY",
+  "welcome": "Welcome to ETHIO SMART ENERGY",
+  "tagline": "Smart Power. Smart Payment. Smart Future.",
+  "prepaidBalance": "Prepaid Balance",
+  "monthlyUsage": "Monthly Energy Consumption",
+  "estimatedBill": "Estimated Bill",
+  "quickServices": "Quick Services",
+  "reportOutage": "Report Power Outage",
+  "voltageProblem": "Voltage Problem",
+  "payElectricity": "Pay Electricity Bill",
+  "aiAssistant": "AI Assistant",
+  "smartEnergyMonitoring": "Smart Energy Monitoring",
+  "demoDisclaimer": "Demo version - Not connected to EEU.",
+  "home": "Home",
+  "bills": "Bills",
+  "reports": "Reports",
+  "profile": "Profile"
+}
