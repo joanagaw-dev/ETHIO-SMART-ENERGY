@@ -1,0 +1,20 @@
+{
+  "@@locale": "om",
+  "appTitle": "ETHIO SMART ENERGY",
+  "welcome": "Baga gara ETHIO SMART ENERGY dhuftan",
+  "tagline": "Humna Smart. Kaffaltii Smart. Egeree Smart.",
+  "prepaidBalance": "Haftee Kaffaltii Dursaa",
+  "monthlyUsage": "Fayyadama Humnaa Ji'aa",
+  "estimatedBill": "Kaffaltii Tilmaamame",
+  "quickServices": "Tajaajiloota Saffisaa",
+  "reportOutage": "Gabaasa Cituu Elektirikii",
+  "voltageProblem": "Rakkoo Vo’olteejii",
+  "payElectricity": "Kaffaltii Elektirikii",
+  "aiAssistant": "Gargaaraa AI",
+  "smartEnergyMonitoring": "To'annoo Humna Smart",
+  "demoDisclaimer": "Kun yaalii qofa; amma EEU waliin hin walqabanne.",
+  "home": "Mana",
+  "bills": "Kaffaltiiwwan",
+  "reports": "Gabaasota",
+  "profile": "Profaayilii"
+}
