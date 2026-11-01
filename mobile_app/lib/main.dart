@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:ethio_smart_energy/l10n/app_localizations.dart';
 
 void main() {
   runApp(const EthioSmartEnergyApp());
