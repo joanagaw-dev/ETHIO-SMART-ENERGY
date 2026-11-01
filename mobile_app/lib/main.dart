@@ -149,6 +149,10 @@ bottomNavigationBar: BottomNavigationBar(
     ),
   ],
 ),
+  ],
+),
+);
+}
   Widget buildHome(AppLocalizations t) {
     return SingleChildScrollView(
       padding: const EdgeInsets.all(16),
