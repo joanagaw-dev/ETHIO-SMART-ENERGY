@@ -115,41 +115,40 @@ class _HomeDashboardState extends State<HomeDashboard> {
           ),
         ],
       ),
-      body: pages[selectedIndex],
-      bottomNavigationBar: NavigationBar(
-        selectedIndex: selectedIndex,
-        onDestinationSelected: (index) {
-          setState(() {
-            selectedIndex = index;
-          });
-        },
-        indicatorColor: lightGreen,
-        destinations: [
-          NavigationDestination(
-            icon: const Icon(Icons.home_outlined),
-            selectedIcon: const Icon(Icons.home),
-            label: t.home,
-          ),
-          NavigationDestination(
-            icon: const Icon(Icons.receipt_long_outlined),
-            selectedIcon: const Icon(Icons.receipt_long),
-            label: t.bills,
-          ),
-          NavigationDestination(
-            icon: const Icon(Icons.report_outlined),
-            selectedIcon: const Icon(Icons.report),
-            label: t.reports,
-          ),
-          NavigationDestination(
-            icon: const Icon(Icons.person_outline),
-            selectedIcon: const Icon(Icons.person),
-            label: t.profile,
-          ),
-        ],
-      ),
-    );
-  }
+      body: IndexedStack(
+  index: selectedIndex,
+  children: pages,
+),
 
+bottomNavigationBar: BottomNavigationBar(
+  type: BottomNavigationBarType.fixed,
+  currentIndex: selectedIndex,
+  onTap: (int index) {
+    setState(() {
+      selectedIndex = index;
+    });
+  },
+  selectedItemColor: brandGreen,
+  unselectedItemColor: Colors.grey,
+  items: [
+    BottomNavigationBarItem(
+      icon: Icon(Icons.home_outlined),
+      label: t.home,
+    ),
+    BottomNavigationBarItem(
+      icon: Icon(Icons.receipt_long_outlined),
+      label: t.bills,
+    ),
+    BottomNavigationBarItem(
+      icon: Icon(Icons.report_outlined),
+      label: t.reports,
+    ),
+    BottomNavigationBarItem(
+      icon: Icon(Icons.person_outline),
+      label: t.profile,
+    ),
+  ],
+),
   Widget buildHome(AppLocalizations t) {
     return SingleChildScrollView(
       padding: const EdgeInsets.all(16),
@@ -290,20 +289,6 @@ class _HomeDashboardState extends State<HomeDashboard> {
               color: Colors.red.shade50,
               borderRadius: BorderRadius.circular(12),
               border: Border.all(color: Colors.red.shade200),
-            ),
-            child: Text(
-              t.demoDisclaimer,
-              style: const TextStyle(
-                color: Colors.red,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
   Widget buildBills(AppLocalizations t) {
     return ListView(
       padding: const EdgeInsets.all(16),
