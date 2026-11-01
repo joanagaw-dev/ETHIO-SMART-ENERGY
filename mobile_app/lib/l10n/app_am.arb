@@ -1,0 +1,20 @@
+{
+  "@@locale": "am",
+  "appTitle": "ETHIO SMART ENERGY",
+  "welcome": "እንኳን ወደ ETHIO SMART ENERGY በደህና መጡ",
+  "tagline": "ዘመናዊ ኃይል። ዘመናዊ ክፍያ። ዘመናዊ ወደፊት።",
+  "prepaidBalance": "የቅድመ ክፍያ ቀሪ ሂሳብ",
+  "monthlyUsage": "ወርሃዊ የኃይል ፍጆታ",
+  "estimatedBill": "የተገመተ ክፍያ",
+  "quickServices": "ፈጣን አገልግሎቶች",
+  "reportOutage": "የኃይል መቋረጥ ሪፖርት",
+  "voltageProblem": "የቮልቴጅ ችግር",
+  "payElectricity": "የኤሌክትሪክ ክፍያ",
+  "aiAssistant": "AI ረዳት",
+  "smartEnergyMonitoring": "ዘመናዊ የኃይል ክትትል",
+  "demoDisclaimer": "የሙከራ ስሪት፤ ከEEU ጋር ገና አልተገናኘም።",
+  "home": "መነሻ",
+  "bills": "ክፍያዎች",
+  "reports": "ሪፖርቶች",
+  "profile": "መገለጫ"
+}
