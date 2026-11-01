@@ -1,0 +1,43 @@
+name: Build ETHIO SMART ENERGY APK
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "mobile_app/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Generate Flutter project
+        working-directory: mobile_app
+        run: |
+          flutter create --platforms=android .
+
+      - name: Install dependencies
+        working-directory: mobile_app
+        run: flutter pub get
+
+      - name: Generate localization
+        working-directory: mobile_app
+        run: flutter gen-l10n
+
+      - name: Build APK
+        working-directory: mobile_app
+        run: flutter build apk --release
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: ethio-smart-energy-apk
+          path: mobile_app/build/app/outputs/flutter-apk/app-release.apk
