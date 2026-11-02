@@ -291,6 +291,18 @@ bottomNavigationBar: BottomNavigationBar(
               color: Colors.red.shade50,
               borderRadius: BorderRadius.circular(12),
               border: Border.all(color: Colors.red.shade200),
+              ),
+            child: Text(
+              t.demoDisclaimer,
+              style: const TextStyle(
+                color: Colors.red,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
   Widget buildBills(AppLocalizations t) {
     return ListView(
       padding: const EdgeInsets.all(16),
